@@ -11,17 +11,7 @@
 using namespace std;
 int main()
 {
-	setlocale(LC_ALL, "Russian");
-	//std::vector<Body *> bodies;
-	//bodies.emplace_back(new Parallelepiped(1, 2, 3));
-	////bodies.emplace_back(new Sphere(123));
-	////bodies.emplace_back(new Cone(1, 2, 3));
-
-	//for (auto* body : bodies)
-	//	body->Print(std::cout) << ", S = " << body->SurfaceArea() << ", V = " << body->Volume() << std::endl;
-
-	//for (auto* body : bodies)
-	//	delete body;
+	setlocale(LC_ALL, "Russian");	
 	int e;
 	do {
 		system("pause");
